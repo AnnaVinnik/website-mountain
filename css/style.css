@@ -4,3 +4,41 @@
     --white: #fff;
     --black: #000;
 }
+
+.body {
+    background-color: var(--dark);
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.full-screen {
+    height: 100vh;
+}
+
+.section-1 {
+    background-image: url(../img/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.8;
+}
+
+.section-1__heading {
+    margin: 0;
+}
+
+.section-3 {
+    background-image: url(../img/background-2.jpg);
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.8;
+}
+
+.section-5 {
+    background-image: url(../img/background-3.jpg);
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.8;
+}
