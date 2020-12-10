@@ -7,6 +7,8 @@
 
 .body {
     background-color: var(--dark);
+    font-family: "Roboto Slab";
+    color: var(--white);
 }
 
 .container {
@@ -18,15 +20,63 @@
     height: 100vh;
 }
 
+.link {
+    color: var(--white);
+}
+
 .section-1 {
-    background-image: url(../img/background-1.jpg);
+    background: url(../img/background-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    opacity: 0.8;
+    position: relative;
+}
+
+.section-1__content {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 888px;
+    height: 352px;
+    position: absolute;
+    bottom: 10%;
+    left: calc(50% - 444px);
+    padding: 50px 30px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.section-1__content::before {
+    content: "";
+    border: 10px var(--yellow) solid;
+    border-right: none;
+    border-bottom: none;
+    position: absolute;
+    width: 283px;
+    height: 390px;
+    top: -26px;
+    left: -26px;
+}
+
+.section-1__content::after {
+    content: "";
+    border: 10px var(--yellow) solid;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    position: absolute;
+    width: 719px;
+    height: 390px;
+    top: -18px;
+    left: -26px;
 }
 
 .section-1__heading {
-    margin: 0;
+    color: var(--white);
+    font-size: 40px;
+    font-family: "Roboto slab";
+    margin-bottom: 60px;
+}
+
+.section-1__description {
+    margin-bottom: 30px;
 }
 
 .section-3 {
