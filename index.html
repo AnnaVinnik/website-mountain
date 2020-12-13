@@ -26,8 +26,8 @@
             <section class="full-screen section-2">
                 <div class="container">
                     <div class="section-2__content">
-                        <img width="386" height="534" src="" alt="Девушка на вершине горы">
-                        <p>
+                        <img class="section-2__photo" width="386" height="534" src="img/content-img-1.jpg" alt="Девушка на вершине горы">
+                        <p class="section-2__text">
                             Быть в окружении невероятной красоты, чувствовать свою свободу и словно птица, наблюдать за миром свысока. 
                             Вот, что ощущают туристы, взобравшиеся на высоту
                         </p>
@@ -39,19 +39,19 @@
                     <div class="section-3__content">
                         <ul class="promo-block">
                             <li class="promo-block__item_round">
-                                <span>15</span>
-                                туров ежегодно
+                                <span class="promo-block__item_in-round">15</span>
+                                <p class="promo-block__item_under-round">туров ежегодно</p>
                             </li>
                             <li class="promo-block__item_round">
-                                <span>500</span>
-                                довольных клиентов
+                                <span class="promo-block__item_in-round">500</span>
+                                <p class="promo-block__item_under-round">довольных клиентов</p>
                             </li>
                             <li class="promo-block__item_round">
-                                <span>5</span>
-                                различных туров
+                                <span class="promo-block__item_in-round">5</span>
+                                <p class="promo-block__item_under-round">различных туров</p>
                             </li>
                         </ul>
-                        <p>
+                        <p class="section-3__text">
                             В течении тура Вы сможете познакомиться с 
                             интересными людьми, и обрести друзей
                         </p>
@@ -74,10 +74,11 @@
                 <div class="container">
                     <div class="section-5__content">
                         <form action="" class="message-form section-5__message-form">
+                            <p class="message-form__heading">Напишите нам!</p>
                             <input class="message-form__input" type="text" placeholder="Ваше имя">
                             <input class="message-form__input" type="text" placeholder="Ваш email">
-                            <input class="message-form__input_size_big" type="text" placeholder="Ваше сообщение">
-                            <input class="message-form__submit" type="submit" value="Отпрвить">
+                            <input class="message-form__input message-form__input_big" type="text" placeholder="Ваше сообщение">
+                            <input class="message-form__submit" type="submit" value="Отправить">
                         </form>
                     </div>
                 </div>
@@ -85,15 +86,17 @@
         </main>
         <footer class="footer">
             <div class="conteiner">
-                <div class="footer__left">
-                    icon-by
-                </div>
-                <div class="footer__center">
-                    developed-by
-                </div>
-                <div class="footer__right">
-                    image-by
-                </div>
+                <ul class="footer-list">
+                    <li class="footer-list__item">
+                        icon_by
+                    </li>
+                    <li class="footer-list__item">
+                        developed_by
+                    </li>
+                    <li class="footer-list__item">
+                        image_by
+                    </li>
+                </ul>
             </div>
         </footer>
     </body>
